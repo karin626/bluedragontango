@@ -6,8 +6,6 @@ function showElementAnimation() {
   var element = document.getElementsByClassName('js-animation');
   if(!element) return; // 要素がなかったら処理をキャンセル
   
-  //var showTiming = window.innerHeight > 768 ? 300 : 60; // 要素が出てくるタイミングはここで調整
-  
   var showTiming;
   if(window.innerWidth > 768){
     showTiming = 30;

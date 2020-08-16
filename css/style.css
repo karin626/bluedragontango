@@ -420,6 +420,10 @@ h2{
 	position: relative;
 	top:80px;
 }
+	.member_sp{
+	display: none;
+	}
+	
 
 /* /member */
 
@@ -482,6 +486,7 @@ h2{
 	display:flex;
 	justify-content: space-between;
 	padding-bottom: 70px;
+	letter-spacing: 0.1em;
 }
 
 .news_contents{
@@ -830,6 +835,11 @@ Footer
 	  text-decoration: none;
 	  color: #111;
 	}
+	.nav_sns{
+		background: linear-gradient(90deg,#0c5ea4 20%,#0085b7);
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+	}
 	.hamburger__line {
 	  position: absolute;
 	  left: 11px;
@@ -904,7 +914,6 @@ Footer
 }
 	.sns_nav{
 		display:inline-block;
-		padding: 0 15px;
 	}
 	
 	/*  /Navigation	*/
@@ -1034,6 +1043,13 @@ Footer
 	.member_title2{
 		display:none;
 	}
+	.member_sp{
+		position: relative;
+		bottom: 18vh;
+		right: 10vw;
+		width: 105%;
+		z-index: -1;		
+	}
 	
 	
 	
@@ -1042,7 +1058,7 @@ Footer
 		padding: 0 8vw;
 		margin: 0;
 		background-image: url("../Picture/parts/story_bg_sp");
-		height:700px;  
+		height: 100vh;
 	}
 	.story_maintitle{
 		margin: 80px 0 0;

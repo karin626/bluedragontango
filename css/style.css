@@ -930,6 +930,7 @@ Footer
 	.section_whatis{
 		position: static;
 	 	padding-top: 110vh;
+		height:75vh;
 	}
 	
 	.whatis{
@@ -983,6 +984,7 @@ Footer
 /*	Member　*/
 	.member_section_1 {
     background-image: none;
+	height: 55vh;
 		}
 
 	.member_title{

@@ -30,6 +30,7 @@
 
 .global-nav li{
 	list-style: none;
+	letter-spacing: 0.05em;
 	
 }
 .global-nav a{
@@ -134,7 +135,6 @@ Footer
 	top: 50%;
 }
 .member_text h3{
-	font-family: 'Montserrat';
 	font-size:6rem;
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -347,12 +347,15 @@ Footer
     	opacity: 0.9;
 }
 	.footer_info p:first-child {
-		font-size: 2rem;
+		font-size: 1.2rem;
 		color: #fff;
 		margin-bottom: 15px;
 	}	
 	.footer_info p:nth-child(2) {
-		font-size: 1.3rem;
+		font-size: 0.8rem;
+	}
+	.footer_info p:nth-child(2) {
+		font-size: 0.8rem;
 	}
 	
 }

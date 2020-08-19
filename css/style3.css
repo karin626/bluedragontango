@@ -34,6 +34,13 @@ img{
   transform: translateY(0px);
 }
 
+.global-nav a:hover{
+	color: #fff;
+	transform: translateY(-0.1875em);
+	background: linear-gradient(90deg,#0c5ea4 20%,#0085b7);
+   	-webkit-background-clip: text;
+   	-webkit-text-fill-color: transparent;
+}
 /*-----------
 Utility
 ------------*/

@@ -347,12 +347,12 @@ Footer
     	opacity: 0.9;
 }
 	.footer_info p:first-child {
-		font-size: 1.2rem;
+		font-size: 2rem;
 		color: #fff;
 		margin-bottom: 15px;
 	}	
 	.footer_info p:nth-child(2) {
-		font-size: 0.8rem;
+		font-size: 1.3rem;
 	}
 	.footer_info p:nth-child(2) {
 		font-size: 0.8rem;

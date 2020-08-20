@@ -101,16 +101,22 @@ Utility
 h1{
 	font-size:3rem;
 	text-transform: uppercase;
-	margin-bottom: 30px;
-	display: inline-block;
-    background: linear-gradient(transparent 75%, #a7d6ff 75%);
-	padding: 0 10px;	
+	margin-bottom: 3vh;
+	display: inline-block;	
 }
 
 h2{
 	line-height: 2;
 	font-size:1.5rem;
-	font-weight:200;
+	font-family:'Montserrat';
+	margin: 3vh 0 0;
+}
+h4{
+	display: inline-block;
+	font-size: 2.2rem;
+    margin-bottom: 2.5vh;
+	background: linear-gradient(transparent 75%, #a7d6ff 75%);
+	
 }
 h2:nth-child(2){
 	text-align: left;
@@ -118,6 +124,8 @@ h2:nth-child(2){
 }
 h2:nth-child(4){
 	text-align: left;
+}
+.text p{
 	
 }
 .section{
@@ -188,6 +196,9 @@ h2:nth-child(4){
 .pic_2sp{
 	display: none;
 }
+.left{
+	text-align: left;
+}
 
 
 @media screen and (max-width:480px){
@@ -202,6 +213,18 @@ h2:nth-child(4){
 	h2{
 		font-size: 1.3rem;
 	}
+	h3{
+		font-size: 1.7rem;
+	}
+	h4 {
+    text-align: left;
+    display: inline;
+    font-size: 1.8rem;
+    background: linear-gradient(90deg,#0c5ea4 20%,#0085b7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
 	.top{
 		margin-top: 20%;
 		padding: 0;
@@ -278,6 +301,9 @@ h2:nth-child(4){
 	.pic_2pc{
 		
 		display:none;
+	}
+	.text div{
+		text-align: left;
 	}
 }
 

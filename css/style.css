@@ -631,7 +631,7 @@ h2{
 	.section_whatis{
 		position: static;
 	 	padding-top: 110vh;
-		height:75vh;
+		height: 85vh;
 	}
 	
 	.whatis{
@@ -738,7 +738,7 @@ h2{
 	.member_sp{
 		display: block;
 		position: relative;
-	    bottom: 22vh;
+	    bottom: 15vh;
 		right: 10vw;
 		width: 105%;
 		z-index: -1;		

@@ -650,7 +650,7 @@ h2{
 	}
 	
 	.whatis_text h3{
-		font-size:1.8rem;
+		font-size:2rem;
 	}	
 	.whatis_text {
 		text-align: left;
@@ -663,7 +663,7 @@ h2{
 		background-image: url("../Picture/parts/logo_blue.png");
 	}
 	.whatis_text p:last-child {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 	margin-bottom: 30px;	
 }
 	.whatis_pic{
@@ -725,12 +725,12 @@ h2{
 		background-image: url("../Picture/parts/member_bg_sp.jpg")
 		}	
 	.membersection_text h3 {
-		font-size: 1.9rem;
+		font-size: 2rem;
 		margin:20px 0 30px;
 	}
 	.membersection_text p {
 		text-align: left;
-		font-size: 1.4rem;
+    	font-size: 1.5rem;
 	}
 	.member_title2{
 		display:none;
@@ -776,12 +776,12 @@ h2{
 		width: 100%;
 	}	
 	.story_text2 h3 {
-		font-size: 1.8rem;
+		font-size: 2rem;
 		color: #fff;
 		}
 	.story_text2 p {
 		text-align: left;
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 		list-style: none;
 		font-weight: 300;
 		color: #fff;
